@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexample</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        span {
+            margin-right: 10px;
+        }
+
+        .top {
+            background-color: purple;
+        }
+
+        span {
+            font-size: medium;
+        }
+
+        .h2 {
+            font-size: xx-small;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        .flex {
+            position: relative;
+            top: 20px;
+            display: flex;
+            height: auto;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: space-evenly;
+        }
+
+
+        .first {
+            width: 150px;
+            height: 200px;
+            border-style: solid; border-collapse: collapse;
+        }
+
+        .bkimg {
+            background-image: url(brwn.jpeg);height: auto;
+        }
+        .bkimg1{background-image: url(img.jpg);}
+    </style>
+</head>
+
+<body>
+    <div>
+        <div class="top">
+            <span><i class="fa-regular fa-gem" style="color: #b72a1a;"></i>Study Course<br>journey to
+                success</span><span>Home</span><span>About</span><span>Courses</span><span>Pages</span><span>contact</span><span
+                class="search"><i class="fa-solid fa-magnifying-glass"></i><i class="fa-solid fa-user-tie"></i>login<i
+                    class="fa-solid fa-moon"></i></span>
+            <div>50 % Discount on all popular<br>courses<br>
+                <p>Take the first step to your journey to success with us</p>
+            </div>
+        </div>
+        <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#800080" fill-opacity="1"
+                d="M0,320L48,288C96,256,192,192,288,186.7C384,181,480,235,576,229.3C672,224,768,160,864,128C960,96,1056,96,1152,96C1248,96,1344,96,1392,96L1440,96L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
+            </path>
+        </svg> -->
+        <div>
+            <h2><span class="h2"> Join our learn courses</span><br>Featured Online Courses</h2>
+            <div class="flex">
+                <div class="first">
+                    <div class><img src="images.jpg"></div>
+                    <div class="ctnt">Open programming courses for<br>everyone:python<br><br><hr></div>
+                </div>
+                <div class="first">
+                    <div class="bkimg1"></div>
+                    <div class="ctnt1"></div>
+            
+                </div>
+                <div class="first">
+                    <div class="bkimg2"></div>
+                    <div class="ctnt2"></div>
+                    <hr>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+</body>
+
+</html>
